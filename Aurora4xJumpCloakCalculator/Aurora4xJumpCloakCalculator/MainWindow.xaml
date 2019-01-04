@@ -1,0 +1,31 @@
+﻿<Window x:Class="Aurora4xJumpCloakCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aurora4xJumpCloakCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="460">
+    <Grid>
+        <Button Margin="40,165,273,10" Click="ButtonBase_OnClick">Calculate Weights</Button>
+        <TextBlock Margin="320,80,31,104" Name="JWeight">JumpDriveWeight</TextBlock>
+        <TextBlock Margin="320,120,31,64" Name="CWeight">CloakWeight</TextBlock>
+        <TextBlock Margin="320,40,31,144" Name="SWeight">TotalShipWeight</TextBlock>
+
+        <TextBlock Margin="40,80,273,104">Jump Level</TextBlock>
+        <TextBlock Margin="40,120,273,64">Cloak Level</TextBlock>
+        <TextBlock Margin="40,40,273,144">Other Components</TextBlock>
+
+        <Border Margin="183,40,151,144" BorderThickness="1" BorderBrush="Black">
+            <TextBox Name="CompValue"></TextBox>
+        </Border>
+        <Border Margin="183,80,151,104" BorderThickness="1" BorderBrush="Black">
+            <TextBox Name="JumpValue"></TextBox>
+        </Border>
+        <Border Margin="183,120,151,64" BorderThickness="1" BorderBrush="Black">
+            <TextBox Name="CloakValue"></TextBox>
+        </Border>
+
+
+    </Grid>
+</Window>
