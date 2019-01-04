@@ -1,6 +1,10 @@
 # Aurora4xJumpAndCloakCalculator
 This is a basic calculator for calculating necessary weights of jump and cloak drives in Aurora4x
 
+# Download
+  Just the calculator:
+    V1.0: https://github.com/ErlendDullaert/Aurora4xJumpAndCloakCalculator/raw/master/Aurora4xJumpCloakCalculator.exe
+
 # How To:
   Fill in the weight of the other components you want on the ship.
   Fill in the tech level of the drive(s) you wish to calculate. Leaving a field empty calculates sizes without that drive,
